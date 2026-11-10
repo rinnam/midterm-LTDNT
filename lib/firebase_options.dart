@@ -17,27 +17,28 @@ class DefaultFirebaseOptions {
     }
   }
 
+  // TODO: Thay thế các giá trị bên dưới bằng config Firebase thực tế của bạn
+  // Lấy từ Firebase Console -> Project Settings -> General -> Your apps -> Web app
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCcO5tmTnbp0x4FWCzt_jlnvgr5UVsQEYw',
-    appId: '1:1019250167469:web:2af509bf6df72fe6538024',
-    messagingSenderId: '1019250167469',
+    apiKey: 'YOUR_API_KEY',
+    appId: '1:YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'midterm-44765',
-    authDomain: 'midterm-44765.firebaseapp.com',
     storageBucket: 'midterm-44765.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCTWkqJBRogxw6Yrcq7LTkP-lcHzZOpaIw',
-    appId: '1:1019250167469:android:f2435f0b565ad4e0538024',
-    messagingSenderId: '1019250167469',
+    apiKey: 'YOUR_API_KEY',
+    appId: '1:YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'midterm-44765',
     storageBucket: 'midterm-44765.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCcO5tmTnbp0x4FWCzt_jlnvgr5UVsQEYw',
-    appId: '1:1019250167469:web:2af509bf6df72fe6538024',
-    messagingSenderId: '1019250167469',
+    apiKey: 'YOUR_API_KEY',
+    appId: '1:YOUR_APP_ID',
+    messagingSenderId: 'YOUR_SENDER_ID',
     projectId: 'midterm-44765',
     storageBucket: 'midterm-44765.firebasestorage.app',
     iosBundleId: 'com.example.midterm',
