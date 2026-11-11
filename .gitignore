@@ -66,4 +66,4 @@ generate_report.py
 # Widget Preview
 .widget_preview/
 Bao_Cao_Admin_Flutter_Firebase.docx
-firestore_users_export.json
+lib/firebase_options.dart
